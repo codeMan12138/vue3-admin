@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-
   </div>
 </template>
 
@@ -11,6 +10,9 @@ export default defineComponent({
   name: 'HelloWorld',
   props: {
     msg: String,
+  },
+  created() {
+    console.log(process.env.NODE_ENV);
   },
 });
 </script>
