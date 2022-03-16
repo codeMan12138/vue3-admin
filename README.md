@@ -1,5 +1,8 @@
 # vue3-admin
 
+## 项目介绍：
+- vue3+ts 后台管理系统。 参考掘金项目：https://juejin.cn/post/7042497481543778334
+
 ## Project setup
 ```
 pnpm install
